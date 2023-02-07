@@ -1,0 +1,15 @@
+.SingleHit {
+  display: flex;
+}
+
+.SingleHitText {
+  flex: 65%;
+}
+
+.SingleHitBoxArt {
+  flex: 20%;
+}
+
+.SingleHitSubscribe {
+  flex: 15%;
+}

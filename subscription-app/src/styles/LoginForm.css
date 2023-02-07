@@ -1,0 +1,22 @@
+.LogInLogOut {
+  display: flex;
+}
+
+.LogInLogOutLeftEmptySpace {
+  flex: 50%;
+}
+
+.LogInLogOutNavButton {
+  flex: 15%;
+  padding: 0px;
+}
+
+.LogInLogOutForm {
+  flex: 25%;
+  padding-left: 10%;
+  padding-right: 0px;
+}
+
+.LogInLogOutRightEmptySpace {
+  flex: 10%;
+}

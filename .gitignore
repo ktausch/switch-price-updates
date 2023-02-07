@@ -1,0 +1,10 @@
+# terraform state and lock files
+/.terraform*
+/terraform.tfstate*
+
+# secret creds that shouldn't be committed to git
+/email_creds.json
+
+# miscellaneous
+/.vscode/
+.DS_Store
