@@ -2,7 +2,7 @@ locals {
   lambda_runtime = "python3.9"
   code_directory = "./lambda_functions"
   lambda_variables = {
-    SENDER_INFO          = jsondecode(file("../../email_creds.json"))
+    SENDER_INFO          = jsondecode(file("./email_creds.json"))
     US_ALGOLIA_ID        = "U3B6GR4UA3"
     US_ALGOLIA_KEY       = "c4da8be7fd29f0f5bfa42920b0a99dc7"
     US_GAMES_INDEX_NAME  = "ncom_game_en_us_title_asc"
