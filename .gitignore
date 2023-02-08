@@ -1,6 +1,8 @@
 # terraform state and lock files
 /.terraform*
 /terraform.tfstate*
+# terraform zipped code files for lambda functions
+/*____code.zip
 
 # secret creds that shouldn't be committed to git
 /email_creds.json
@@ -8,4 +10,3 @@
 # miscellaneous
 /.vscode/
 .DS_Store
-/*____code.zip
